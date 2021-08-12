@@ -1,0 +1,2 @@
+ham.addEventListener("click",(function(){ham.classList.toggle("crece"),menu_wrapper.classList.toggle("crece")})),botonArriba=document.getElementById("botonArriba"),window.onscroll=function(){let e=document.documentElement.scrollTop;e>200?botonArriba.style.transform="scale(1)":e<200&&(botonArriba.style.transform="scale(0)")};
+//# sourceMappingURL=main.js.map

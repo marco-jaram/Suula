@@ -1,0 +1,20 @@
+.header-inicio {
+    background-image: url(/dist/img/vertical-subiendo-con-bolsa-pequena.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    p {
+        margin: 0px;
+    }
+}
+
+@include tablet {
+    .header-inicio {
+        background-image: url(/dist/img/tres-en-escalera.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
