@@ -401,10 +401,16 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 
-.header-inicio p {
-  margin: 0px;
+.header-inicio::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: .5;
 }
 
 @media (min-width: 768px) {
@@ -422,7 +428,9 @@ li {
 }
 
 .logo-suula {
-  background-color: #FFF5C1;
+  position: relative;
+  z-index: 1;
+  background-color: white;
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -433,14 +441,27 @@ li {
   fill: #2533E1;
 }
 
+.titulo-principal {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
 .titulo-principal h1 {
+  line-height: 3.5rem;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  margin: 0px;
+  font-size: 3.5rem;
 }
 
 .titulo-principal h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  margin: 0px;
+  font-size: 3rem;
 }
 
 /*Barra de navegacion*/
@@ -546,6 +567,7 @@ li {
   background-color: #2533E1;
   position: fixed;
   bottom: 0px;
+  z-index: 2;
 }
 
 @media (min-width: 768px) {

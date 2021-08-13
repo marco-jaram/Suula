@@ -101,6 +101,7 @@
     background-color: $azul;
     position: fixed;
     bottom: 0px;
+    z-index: 2;
 }
 .nav-menu-principal {
     @include tablet {
