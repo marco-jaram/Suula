@@ -13,13 +13,16 @@ $negro: #000;
 
 
 //FUENTES
+
 // una vez que ya esta importada la fuente URL de googlefonts copiar y pegar a qui el nombre rules spec
-$fuentePrincipal:'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
+$fuentePrincipal:'Roboto', sans-serif;
 
 // Medidas de fuentes
-$delgada: 300;
-$regular: 400;
-$bold: 900;
+$delgada:100;
+$regular: 300;
+$bold: 400;
+$extra-bold: 900;
 
 
 //Mediaquieri

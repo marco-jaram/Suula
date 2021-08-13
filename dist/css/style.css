@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -350,7 +350,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contenedor {
@@ -384,7 +384,7 @@ a {
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   letter-spacing: .03rem;
@@ -417,9 +417,30 @@ li {
   }
 }
 
+.header-contenido {
+  padding-top: 50px;
+}
+
 .logo-suula {
+  background-color: #FFF5C1;
   border-radius: 50%;
-  border-width: 10px;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.logo-suula svg {
+  fill: #2533E1;
+}
+
+.titulo-principal h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.titulo-principal h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 /*Barra de navegacion*/

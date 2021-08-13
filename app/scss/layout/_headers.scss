@@ -18,7 +18,29 @@
         height: 100vh;
     }
 }
-.logo-suula {
+
+.header-contenido{
+    padding-top: 50px;
+}
+.logo-suula{
+    background-color: $amarillo-base;
     border-radius: 50%;
-    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.logo-suula svg {
+    fill: $azul;
+}
+.titulo-principal{
+    h1{
+
+        font-family: $fuentePrincipal;
+        font-weight: $regular;
+    }
+    h2{
+        font-family: $fuentePrincipal;
+        font-weight: $regular; 
+    }
 }
