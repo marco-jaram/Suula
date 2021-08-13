@@ -417,6 +417,11 @@ li {
   }
 }
 
+.logo-suula {
+  border-radius: 50%;
+  border-width: 10px;
+}
+
 /*Barra de navegacion*/
 .menu-desktop {
   display: none;
@@ -430,6 +435,8 @@ li {
 
 .ham {
   font-size: 2.5rem;
+  color: #D6D1CA;
+  padding-right: 20px;
 }
 
 @media (min-width: 768px) {
@@ -452,7 +459,7 @@ li {
 
 /*listanavegacion*/
 .lista-navegacion {
-  background-color: rgba(64, 134, 85, 0.959);
+  background-color: #2533E1;
   width: 100%;
   position: absolute;
   -webkit-padding-start: 0px;
@@ -460,6 +467,7 @@ li {
   height: 100vh;
   transition: all 0.9s;
   clip-path: circle(0% at 99% 100%);
+  padding-top: 40px;
 }
 
 .crece .menu {
@@ -514,7 +522,7 @@ li {
 
 .nav-menu-principal {
   width: 100%;
-  background-color: green;
+  background-color: #2533E1;
   position: fixed;
   bottom: 0px;
 }
@@ -522,7 +530,7 @@ li {
 @media (min-width: 768px) {
   .nav-menu-principal {
     width: 100%;
-    background-color: green;
+    background-color: #2533E1;
     position: fixed;
     bottom: 0px;
   }

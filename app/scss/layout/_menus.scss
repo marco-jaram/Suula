@@ -11,7 +11,8 @@
 
 .ham {
     font-size: 2.5rem;
-    // color: green;
+    color: $gris-base;
+    padding-right: 20px;
 }
 .ham {
     @include tablet {
@@ -32,7 +33,7 @@
 /*listanavegacion*/
 
 .lista-navegacion {
-    background-color: rgba(64, 134, 85, 0.959);
+    background-color: $azul;
     width: 100%;
     position: absolute;
     -webkit-padding-start: 0px;
@@ -42,6 +43,7 @@
     // opacity: 0;
     transition: all 0.9s;
     clip-path: circle(0% at 99% 100%);
+    padding-top: 40px;
 }
 .crece .menu {
     // height: 90vh;
@@ -96,14 +98,14 @@
 }
 .nav-menu-principal {
     width: 100%;
-    background-color: green;
+    background-color: $azul;
     position: fixed;
     bottom: 0px;
 }
 .nav-menu-principal {
     @include tablet {
         width: 100%;
-        background-color: green;
+        background-color: $azul;
         position: fixed;
         bottom: 0px;
     }
