@@ -410,7 +410,7 @@ li {
   height: 100%;
   background-color: black;
   position: absolute;
-  opacity: .4;
+  opacity: .6;
 }
 
 @media (min-width: 768px) {
@@ -450,7 +450,7 @@ li {
 }
 
 .titulo-principal h1 {
-  line-height: 3.5rem;
+  line-height: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 0px;
