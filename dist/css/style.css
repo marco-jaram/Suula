@@ -355,7 +355,7 @@ body {
 
 .contenedor {
   max-width: 120rem;
-  width: 98%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -410,7 +410,7 @@ li {
   height: 100%;
   background-color: black;
   position: absolute;
-  opacity: .6;
+  opacity: .4;
 }
 
 @media (min-width: 768px) {
@@ -462,6 +462,27 @@ li {
   font-weight: 100;
   margin: 0px;
   font-size: 2.5rem;
+}
+
+.puntosD h3 {
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #2533E1;
+  font-size: 3rem;
+}
+
+.puntosD ul {
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+.puntosD ul .fa-frown {
+  color: #504e4e;
+  margin-right: 5px;
+}
+
+.puntosD ul li {
+  color: #4d535a;
 }
 
 /*Barra de navegacion*/
