@@ -338,6 +338,9 @@ template {
   display: none;
 }
 
+/*------------------------------------*\
+GLOBALES
+\*------------------------------------*/
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -396,6 +399,9 @@ li {
   font-size: 1.8rem;
 }
 
+/*------------------------------------*\
+HEADERS
+\*------------------------------------*/
 .header-inicio {
   background-image: url(/dist/img/vertical-subiendo-con-bolsa-pequena.jpg);
   background-position: center;
@@ -465,27 +471,9 @@ li {
   font-size: 2.5rem;
 }
 
-.puntosD h3 {
-  font-weight: 400;
-  margin-bottom: 0px;
-  color: #2533E1;
-  font-size: 3rem;
-}
-
-.puntosD ul {
-  line-height: 2.5rem;
-  list-style: none;
-}
-
-.puntosD ul .fa-frown {
-  color: #504e4e;
-  margin-right: 5px;
-}
-
-.puntosD ul li {
-  color: #4d535a;
-}
-
+/*------------------------------------*\
+MENUS
+\*------------------------------------*/
 /*Barra de navegacion*/
 .menu-desktop {
   display: none;
@@ -602,3 +590,63 @@ li {
 }
 
 /*FIN de barra de navegacion mobil y desktop posicion fija*/
+/*------------------------------------*\
+FOOTER
+\*------------------------------------*/
+/*------------------------------------*\
+INSTAGRAM LINKS MENU
+\*------------------------------------*/
+/*------------------------------------*\
+HOME
+\*------------------------------------*/
+.puntosD h3 {
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #2533E1;
+  font-size: 3rem;
+}
+
+.puntosD ul {
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+.puntosD ul .fa-search-minus {
+  list-style: none;
+  color: #504e4e;
+  margin-right: 5px;
+}
+
+.puntosD ul li {
+  color: #4d535a;
+}
+
+/*agranda problema*/
+.agranda-problema ul {
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+.agranda-problema ul .fa-frown {
+  list-style: none;
+  color: #504e4e;
+  margin-right: 5px;
+}
+
+.agranda-problema ul li {
+  color: #4d535a;
+}
+
+/*fin agranda problema*/
+/*------------------------------------*\
+ACERCA DE 
+\*------------------------------------*/
+/*------------------------------------*\
+SERVICIOS
+\*------------------------------------*/
+/*------------------------------------*\
+CONTACTO
+\*------------------------------------*/
+/*------------------------------------*\
+AVISO DE PRIVACIDAD
+\*------------------------------------*/

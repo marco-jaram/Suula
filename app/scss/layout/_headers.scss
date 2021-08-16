@@ -1,3 +1,6 @@
+/*------------------------------------*\
+HEADERS
+\*------------------------------------*/
 .header-inicio {
     background-image: url(/dist/img/vertical-subiendo-con-bolsa-pequena.jpg);
     background-position: center;
@@ -64,22 +67,4 @@ line-height: 3rem;
         font-size: 2.5rem;
  
     }
-}
-.puntosD h3{
-font-weight: $bold;
-margin-bottom: 0px;
-color: $azul;
-font-size: 3rem;
-
-}
-.puntosD ul{
-    line-height: 2.5rem;
-list-style: none;
-   .fa-frown{
-       color: rgb(80, 78, 78) ;
-       margin-right: 5px;
-   }
-   li {
-       color: rgb(77, 83, 90);
-   }
 }
