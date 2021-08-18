@@ -1,14 +1,14 @@
 /*------------------------------------*\
 HOME
 \*------------------------------------*/
-.puntosD h3{
-    font-weight: $bold;
+.puntosD-contenido h3{
+    
     margin-bottom: 0px;
-    color: $azul;
+    color: $gris-texto;
     font-size: 3rem;
     
     }
-    .puntosD ul{
+    .puntosD-contenido ul{
         line-height: 2.5rem;
     list-style: none;
        .fa-search-minus{
@@ -38,3 +38,48 @@ HOME
 
 }
 /*fin agranda problema*/
+/*Solucion*/
+.solucion{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+.contenido-solucion-texto {
+    background-color: $azul;
+    h2{color: $blanco;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    p{color: $blanco;
+        line-height: 2rem;
+        padding-bottom: 15px;
+    }
+}
+.contenido-solucion-imagenes{
+    padding-bottom: 40px;
+    background-color: $gris-base ;
+    .img-under{
+        width: 250px;
+    }
+    .img-sobre-puesta{
+        margin-top: -40px;
+        width: 250px;
+        margin-left: 60px;
+        border-radius: 50%;
+        // box-shadow: 0 0 30px rgba(68, 85, 65, 0.281);
+        box-shadow: 0 0 3px $azul;
+    }
+
+}
+.contenido-vive-la-experiencia-texto{
+    h2{
+        padding-bottom: 30px;
+    }
+}
+
+.boton-flat-ligero{
+    a{
+        @include boton-global ($amarillo-opuesto, $azul);
+    }
+}

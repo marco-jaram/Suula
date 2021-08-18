@@ -599,25 +599,24 @@ INSTAGRAM LINKS MENU
 /*------------------------------------*\
 HOME
 \*------------------------------------*/
-.puntosD h3 {
-  font-weight: 400;
+.puntosD-contenido h3 {
   margin-bottom: 0px;
-  color: #2533E1;
+  color: #5a5a5a;
   font-size: 3rem;
 }
 
-.puntosD ul {
+.puntosD-contenido ul {
   line-height: 2.5rem;
   list-style: none;
 }
 
-.puntosD ul .fa-search-minus {
+.puntosD-contenido ul .fa-search-minus {
   list-style: none;
   color: #504e4e;
   margin-right: 5px;
 }
 
-.puntosD ul li {
+.puntosD-contenido ul li {
   color: #4d535a;
 }
 
@@ -638,6 +637,61 @@ HOME
 }
 
 /*fin agranda problema*/
+/*Solucion*/
+.solucion {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contenido-solucion-texto {
+  background-color: #2533E1;
+}
+
+.contenido-solucion-texto h2 {
+  color: #FFF;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.contenido-solucion-texto p {
+  color: #FFF;
+  line-height: 2rem;
+  padding-bottom: 15px;
+}
+
+.contenido-solucion-imagenes {
+  padding-bottom: 40px;
+  background-color: #D6D1CA;
+}
+
+.contenido-solucion-imagenes .img-under {
+  width: 250px;
+}
+
+.contenido-solucion-imagenes .img-sobre-puesta {
+  margin-top: -40px;
+  width: 250px;
+  margin-left: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px #2533E1;
+}
+
+.contenido-vive-la-experiencia-texto h2 {
+  padding-bottom: 30px;
+}
+
+.boton-flat-ligero a {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: transparent;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  background-color: #FFDD00;
+  color: #2533E1;
+  cursor: pointer;
+}
+
 /*------------------------------------*\
 ACERCA DE 
 \*------------------------------------*/
