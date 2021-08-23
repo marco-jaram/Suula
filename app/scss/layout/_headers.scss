@@ -15,7 +15,7 @@ HEADERS
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: .4;
+    opacity: 0.4;
 }
 
 @include tablet {
@@ -28,43 +28,77 @@ HEADERS
     }
 }
 
-.header-contenido{
+.header-contenido {
     padding-top: 50px;
 }
-.logo-suula{
-    position: relative;
-    z-index: 1;
-    background-color: white;
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
-    margin: 0 auto;
-}
+
+/*Estilos a logo*/
 
 .logo-suula svg {
-    fill: $azul;
+    fill: #2533e1;
+    width: 100px;
 }
-.titulo-principal{
+.logo-suula {
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 20px 35px rgba(66, 66, 66, 0.151);
+    border-radius: 50%;
+    overflow: hidden;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-suula:before {
+    content: "";
+    background-image: conic-gradient($azul 20deg, transparent 120deg);
+    /* background-color: rgba(255, 255, 255, 0.219) ; */
+    height: 150%;
+    width: 150%;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    animation: rotate 5s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.contenido-logo {
+    height: 97%;
+    width: 97%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+/*fin de estilos a logo*/
+
+.titulo-principal {
     position: relative;
     z-index: 1;
     color: white;
     padding-top: 50px;
 
     margin-left: 10px;
-    h1{
-line-height: 3rem;
+    h1 {
+        line-height: 3rem;
 
         font-family: $fuentePrincipal;
         font-weight: $regular;
         margin: 0px;
         font-size: 3rem;
-        
     }
-    h2{
+    h2 {
         font-family: $fuentePrincipal;
         font-weight: $delgada;
         margin: 0px;
         font-size: 2.5rem;
- 
     }
 }
