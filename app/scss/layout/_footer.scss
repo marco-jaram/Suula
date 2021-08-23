@@ -1,3 +1,27 @@
 /*------------------------------------*\
 FOOTER
 \*------------------------------------*/
+footer {
+    background-color: $negro;
+}
+
+.contenido-footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contenido-footer div {
+    margin: 10px;
+}
+.iconos-redes{
+    color: white;
+    font-size: 2rem;
+}
+.iconos-redes:hover{
+    color: $azul;
+}

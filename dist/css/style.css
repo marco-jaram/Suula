@@ -446,7 +446,7 @@ HEADERS
   width: 150px;
   position: relative;
   margin: auto;
-  box-shadow: 0 20px 35px rgba(66, 66, 66, 0.151);
+  box-shadow: 0 20px 35px rgba(34, 34, 34, 0.336);
   border-radius: 50%;
   overflow: hidden;
   /* background-color: black; */
@@ -629,6 +629,32 @@ MENUS
 /*------------------------------------*\
 FOOTER
 \*------------------------------------*/
+footer {
+  background-color: #000;
+}
+
+.contenido-footer {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenido-footer div {
+  margin: 10px;
+}
+
+.iconos-redes {
+  color: white;
+  font-size: 2rem;
+}
+
+.iconos-redes:hover {
+  color: #2533E1;
+}
+
 /*------------------------------------*\
 INSTAGRAM LINKS MENU
 \*------------------------------------*/
@@ -726,6 +752,30 @@ HOME
   background-color: #FFDD00;
   color: #2533E1;
   cursor: pointer;
+}
+
+.contenido-vive-la-experiencia-texto {
+  color: #2533E1;
+}
+
+.cta-home {
+  margin-top: 15px;
+}
+
+.cta-home h3 {
+  color: #5a5a5a;
+}
+
+.boton-flat-ligero {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.msj1 {
+  margin-top: 40px;
+  background-color: #D6D1CA;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*------------------------------------*\

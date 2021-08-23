@@ -83,3 +83,24 @@ HOME
         @include boton-global ($amarillo-opuesto, $azul);
     }
 }
+.contenido-vive-la-experiencia-texto{
+    color: $azul;
+
+}
+.cta-home{
+    margin-top: 15px;
+    h3{
+color: $gris-texto;
+    }
+}
+.boton-flat-ligero{
+  
+    text-align: center;
+    margin-top: 40px;
+}
+.msj1{
+    margin-top: 40px;
+    background-color: $gris-base;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
