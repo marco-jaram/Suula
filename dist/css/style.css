@@ -402,6 +402,7 @@ li {
 /*------------------------------------*\
 HEADERS
 \*------------------------------------*/
+/*Header de home*/
 .header-inicio {
   background-image: url(/dist/img/vertical-subiendo-con-bolsa-pequena.jpg);
   background-position: center;
@@ -424,6 +425,7 @@ HEADERS
   .header-inicio {
     background-image: url(/dist/img/tres-en-escalera.jpg);
     background-position: center;
+    background-position-y: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -435,11 +437,6 @@ HEADERS
 }
 
 /*Estilos a logo*/
-.logo-suula svg {
-  fill: #2533e1;
-  width: 100px;
-}
-
 .logo-suula {
   z-index: 1;
   height: 150px;
@@ -455,6 +452,12 @@ HEADERS
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .logo-suula {
+    display: none;
+  }
+}
+
 .logo-suula:before {
   content: "";
   background-image: conic-gradient(#2533E1 20deg, transparent 120deg);
@@ -465,6 +468,11 @@ HEADERS
   left: -25%;
   top: -25%;
   animation: rotate 5s infinite linear;
+}
+
+.logo-suula svg {
+  fill: #2533e1;
+  width: 100px;
 }
 
 @keyframes rotate {
@@ -492,6 +500,20 @@ HEADERS
   margin-left: 10px;
 }
 
+@media (min-width: 768px) {
+  .titulo-principal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin-bottom: 20rem;
+    margin-left: 3rem;
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
 .titulo-principal h1 {
   line-height: 3rem;
   font-family: "Roboto", sans-serif;
@@ -500,11 +522,25 @@ HEADERS
   font-size: 3rem;
 }
 
+@media (min-width: 768px) {
+  .titulo-principal h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
 .titulo-principal h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   margin: 0px;
   font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .titulo-principal h2 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
 }
 
 /*------------------------------------*\
@@ -543,6 +579,12 @@ MENUS
   .navegacion-desktop {
     align-items: center;
   }
+}
+
+.navegacion-desktop div svg {
+  fill: #2533E1;
+  width: 50px;
+  background-color: white;
 }
 
 /*listanavegacion*/
@@ -619,10 +661,20 @@ MENUS
 @media (min-width: 768px) {
   .nav-menu-principal {
     width: 100%;
-    background-color: #2533E1;
-    position: fixed;
-    bottom: 0px;
+    background-color: rgba(13, 55, 117, 0);
+    position: absolute;
+    top: 0px;
   }
+}
+
+.nav-menu-principal .menu-desktop {
+  margin-top: 1rem;
+}
+
+.nav-menu-principal .menu-desktop a {
+  font-size: 1.4rem;
+  color: white;
+  margin-left: 1rem;
 }
 
 /*FIN de barra de navegacion mobil y desktop posicion fija*/

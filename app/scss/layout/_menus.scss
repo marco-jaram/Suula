@@ -9,6 +9,7 @@ MENUS
 .menu-desktop {
     @include tablet {
         display: inline-block;
+        
     }
 }
 
@@ -31,6 +32,11 @@ MENUS
 .navegacion-desktop {
     @include tablet {
         align-items: center;
+    }
+    div svg{
+        fill:$azul;
+        width: 50px;
+        background-color: white;
     }
 }
 /*listanavegacion*/
@@ -109,9 +115,22 @@ MENUS
 .nav-menu-principal {
     @include tablet {
         width: 100%;
-        background-color: $azul;
-        position: fixed;
-        bottom: 0px;
+        background-color: rgba(13, 55, 117, 0);
+        position: absolute;
+        top: 0px;
+        
+    
     }
+.menu-desktop{
+    margin-top: 1rem;
+
+}
+.menu-desktop a{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 1rem;
+
+}
+
 }
 /*FIN de barra de navegacion mobil y desktop posicion fija*/

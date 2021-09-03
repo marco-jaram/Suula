@@ -1,6 +1,9 @@
 /*------------------------------------*\
 HEADERS
 \*------------------------------------*/
+
+
+/*Header de home*/
 .header-inicio {
     background-image: url(/dist/img/vertical-subiendo-con-bolsa-pequena.jpg);
     background-position: center;
@@ -22,6 +25,7 @@ HEADERS
     .header-inicio {
         background-image: url(/dist/img/tres-en-escalera.jpg);
         background-position: center;
+        background-position-y: 0px;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -34,10 +38,7 @@ HEADERS
 
 /*Estilos a logo*/
 
-.logo-suula svg {
-    fill: #2533e1;
-    width: 100px;
-}
+
 .logo-suula {
     z-index: 1;
     height: 150px;
@@ -51,6 +52,10 @@ HEADERS
     display: flex;
     justify-content: center;
     align-items: center;
+    @include tablet{
+        display: none;
+    }
+   
 }
 .logo-suula:before {
     content: "";
@@ -62,6 +67,13 @@ HEADERS
     left: -25%;
     top: -25%;
     animation: rotate 5s infinite linear;
+    
+
+}
+.logo-suula svg {
+    fill: #2533e1;
+    width: 100px;
+   
 }
 @keyframes rotate {
     100% {
@@ -85,6 +97,19 @@ HEADERS
     z-index: 1;
     color: white;
     padding-top: 50px;
+    @include tablet{
+       
+        display: flex;
+       flex-direction: column;
+       height: 100vh;
+       justify-content: center;
+       margin-bottom: 20rem;
+       margin-left: 3rem;
+       max-width: 120rem;
+       width: 95%;
+       margin: 0 auto;
+   
+    }
 
     margin-left: 10px;
     h1 {
@@ -94,11 +119,19 @@ HEADERS
         font-weight: $regular;
         margin: 0px;
         font-size: 3rem;
+        @include tablet{
+            font-size: 4rem;
+            line-height: 4rem;
+        }
     }
     h2 {
         font-family: $fuentePrincipal;
         font-weight: $delgada;
         margin: 0px;
         font-size: 2.5rem;
+        @include tablet {
+            font-size: 3.5rem;
+            line-height: 3.5rem;
+        }
     }
 }
